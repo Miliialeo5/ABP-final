@@ -1,0 +1,96 @@
+/* Estilos generales */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #6fa755; /* Fondo suave */
+  color: #333; /* Color del texto */
+  margin: 0;
+  padding: 0;
+}
+
+h2, h5 {
+  color: #0e412c; /* Azul oscuro para títulos */
+  text-align: center; /* Centra los títulos */
+  margin-bottom: 20px;
+}
+
+a {
+  color: #21608a; /* Azul para enlaces */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1abc9c; /* Verde agua en hover */
+  text-decoration: underline;
+}
+
+/* Estilo del menú de navegación */
+.navbar {
+  background-color: #50a86b; /* Azul oscuro */
+}
+
+.navbar-brand img {
+  border-radius: 20%; /* Logos redondos */
+  background-color: #1abc9c;
+
+}
+
+.nav-link {
+  color: #74ce92 !important; /* Texto blanco */
+  padding: 10px 15px;
+}
+
+.nav-link:hover {
+  background-color: #1abc9c; /* Fondo verde agua en hover */
+  color: white !important;
+}
+
+/* Estilo del carrusel */
+.carousel-inner img {
+  object-fit: cover; /* Ajusta las imágenes al contenedor */
+  height: 600px; /* Altura fija para el carrusel */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5); /* Iconos oscuros con opacidad */
+  border-radius: 50%;
+}
+
+/* Estilo de la sección de flores */
+.container-fluid img {
+  width: 30%; /* Ajusta las imágenes al contenedor */
+  height: auto;
+  margin-bottom: 20px;
+  background-color: #6fa755;
+}
+
+/* Tarjetas */
+.card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombras suaves */
+  border: none;
+}
+
+.card:hover {
+  transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
+  transition: transform 0.3s ease-in-out;
+}
+
+.card-title {
+  color: #2980b9; /* Azul para los títulos de tarjetas */
+}
+
+.card-text {
+  color: #34495e; /* Texto gris oscuro */
+}
+
+/* Botones */
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+

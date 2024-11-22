@@ -1,0 +1,32 @@
+.box {
+    max-width: 600px; /* Puedes ajustar el ancho máximo */
+    margin: 20px auto; /* Espaciado superior e inferior, centrado horizontal */
+    padding: 15px; /* Espaciado interno */
+    border: 1px solid rgb(214, 164, 164); /* Opcional: borde alrededor del div */
+    border-radius: 8px; /* Opcional: bordes redondeados */
+    background-color: #3f9b5a; /* Opcional: color de fondo */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Opcional: sombra */
+}
+
+.table {
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    border-collapse: collapse; /* Elimina el espacio entre celdas */
+    font-family: 'Arial', sans-serif; /* Cambia la tipografía */
+}
+
+.table th, .table td {
+    padding: 15px; /* Aumenta el espaciado interno de las celdas */
+    border: 1px solid rgb(207, 102, 102); /* Borde para las celdas */
+    text-align: left; /* Alineación del texto */
+}
+
+.table th {
+    background-color: #8bc584; /* Color de fondo para el encabezado */
+    font-weight: bold; /* Negrita para el encabezado */
+
+}
+
+.h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
